@@ -1,0 +1,66 @@
+/* Custom Styles */
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #1da1f2 !important; /* Twitter-like blue color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff !important; /* White text for the brand name */
+  }
+  
+  .navbar-brand:hover {
+    color: #e8f5fe !important; /* Slightly lighter white on hover */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* White text for links */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e8f5fe !important; /* Lighter white on hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    border-bottom: 2px solid #ffffff; /* Highlight active link */
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  } /* Custom toggler icon for collapsed menu */
+  
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: #1da1f2; /* Match collapsed menu background */
+    }
+  }
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #6c757d; /* Subtle gray text */
+    padding: 1rem 0; /* Add vertical padding */
+    margin-top: auto; 
+  }
